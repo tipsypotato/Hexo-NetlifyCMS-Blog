@@ -17,7 +17,8 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 * **glTF 模型导入，PBR 材质**
 
-  ![PBR-glTF model](images/gengine-gltf-pbr.jpeg "PBR-glTF model")
+![PBR-glTF model](images/gengine-gltf-pbr.jpeg "PBR-glTF model")
+
 * **IBL**
 
 ![IBL](images/gengine-ibl-2.jpeg "IBL")
