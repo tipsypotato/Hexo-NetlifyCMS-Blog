@@ -11,9 +11,44 @@
 }
 
 // background image setting
-body {
-    background-image: url(/images/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+// body {
+//     background-image: url(/images/background.jpg);
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: 100% 100%;
+// }
+
+// sidebar
+.sidebar {
+    box-shadow: none;
+    background: none;
+}
+
+//opacity of local-search
+.popup {
+  opacity: 0.9;
+}
+
+// fold/unfold code block
+.hider_title{
+    cursor: pointer;
+    color: #000000;
+}
+.close:before{
+    content: "▼";
+}
+.open:before{
+    content: "▲";
+}
+
+// link style in pages
+.post-body p a{
+  color: #0593d3; // original color of link 
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3; // bottom line color
+  &:hover {
+    color: #fc6423; // color when hovering
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423; // bottom line color
+  }
 }

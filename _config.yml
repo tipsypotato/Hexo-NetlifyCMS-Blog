@@ -93,7 +93,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
 exclude:
 ignore:
 
@@ -113,3 +113,25 @@ search:
   field: post
   format: html
   limit: 1000
+
+# live2d
+# only pages with '{{ live2d() }}' display live2d model
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: true
+  log: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+    scale: 0.3
+  react:
+    opacity: 0.7
