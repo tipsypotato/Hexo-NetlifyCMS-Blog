@@ -1,5 +1,6 @@
 ---
 title: test
-date: 2022-08-25T14:35:38.056Z
+abbrlink: d87f7e0c
+date: 2022-08-25 14:35:38
 ---
 test
