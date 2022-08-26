@@ -6,6 +6,7 @@ tags:
   - Engine
 categories:
   - Engine
+comments: false
 ---
 Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
