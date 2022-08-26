@@ -1,44 +1,33 @@
 ---
-title: Hello World
+title: My Renderer
 abbrlink: 4a17b156
 date: 2022-08-26T09:11:48.217Z
 tags:
-  - Hello
+  - Engine
 categories:
-  - Hello
+  - Engine
+comments: false
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
-## Quick Start
+# Overview
 
-### Create a new post
+一个很简单的 OpenGL 渲染引擎，支持 glTF 和 obj 的模型导入、PBR 材质、IBL、简单的 UI 面板
 
-``` bash
-$ hexo new "My New Post"
-```
+# Feature
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+* **glTF 模型导入，PBR 材质**
 
-### Run server
+![PBR-glTF model](images/gengine-gltf-pbr.jpeg "PBR-glTF model")
 
-``` bash
-$ hexo server
-```
+* **IBL**
 
-More info: [Server](https://hexo.io/docs/server.html)
+![IBL](images/gengine-ibl-2.jpeg "IBL")
 
-### Generate static files
+* **Debug Mode**
 
-``` bash
-$ hexo generate
-```
+![Debug Mode](images/gengine-gltf-pbr-debug.jpeg "Debug Mode")
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+# Todo
 
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+写这个小引擎主要是熟悉工程的构建流程以及引擎结构相关的知识，完成一些简单的渲染工作（比如一些图形学算法的实现）
