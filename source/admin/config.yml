@@ -16,57 +16,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {
-          label: "顶部图",
-          name: "banner_img",
-          widget: "image",
-          required: false,
-        }
-      - {
-          label: "文章封面",
-          name: "index_img",
-          widget: "image",
-          required: false,
-        }
-      - { label: "文章排序", name: "sticky", widget: "number", required: false }
-      - { label: "标题", name: "title", widget: "string" }
-      - {
-          label: "发布日期",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD HH:mm:ss",
-          dateFormat: "YYYY-MM-DD",
-          timeFormat: "HH:mm:ss",
-          required: false,
-        }
-      - {
-        label: "更新日期",
-        name: "updated",
-        widget: "datetime",
-        format: "YYYY-MM-DD HH:mm:ss",
-        dateFormat: "YYYY-MM-DD",
-        timeFormat: "HH:mm:ss",
-        required: false,
-        }
-      - { label: "标签", name: "tags", widget: "list", required: false }
-      - { label: "分类", name: "categories", widget: "list", required: false }
-      - { label: "关键词", name: "keywords", widget: "list", required: false }
-      - { label: "摘要", name: "excerpt", widget: "list", required: false }
-      - { label: "内容", name: "body", widget: "markdown", required: false }
-      - {
-          label: "永久链接",
-          name: "permalink",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "评论",
-          name: "comments",
-          widget: "boolean",
-          default: true,
-          required: false,
-        }
-
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Photos", name: "photos", widget: "list", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
 
   - name: "pages"
     label: "Pages"
