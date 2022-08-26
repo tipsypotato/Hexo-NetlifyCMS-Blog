@@ -132,6 +132,8 @@ live2d:
     height: 300
   mobile:
     show: true
-    scale: 0.4
+    scale: 0.5
+    hOffset: -15  # 向 偏移
+    vOffset: -15  # 像 偏移
   react:
     opacity: 0.7
