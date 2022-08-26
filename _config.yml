@@ -128,12 +128,10 @@ live2d:
     use: live2d-widget-model-hijiki
   display:
     position: right
-    width: 150
-    height: 300
+    width: 100
+    height: 200
   mobile:
     show: true
-    scale: 0.5
-    hOffset: 20  # 向 偏移
-    vOffset: 50  # 像 偏移
+    scale: 0.7
   react:
-    opacity: 0.7
+    opacity: 0.9
