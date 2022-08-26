@@ -133,7 +133,7 @@ live2d:
   mobile:
     show: true
     scale: 0.5
-    hOffset: 10  # 向 偏移
-    vOffset: 15  # 像 偏移
+    hOffset: 20  # 向 偏移
+    vOffset: 50  # 像 偏移
   react:
     opacity: 0.7
