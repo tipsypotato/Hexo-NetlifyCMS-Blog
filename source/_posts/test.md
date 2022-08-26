@@ -75,6 +75,8 @@ date: 2022-08-26 07:06:06
 
 ## Forward
 
+
+
 ![内循环主体是 light 的方式叫做 single-pass lighting，与之对应的是 multi-pass lighting](untitled-2.png)
 
 内循环主体是 light 的方式叫做 single-pass lighting，与之对应的是 multi-pass lighting
