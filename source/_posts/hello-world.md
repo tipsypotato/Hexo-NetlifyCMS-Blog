@@ -29,6 +29,12 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 ![Debug Mode](images/gengine-gltf-pbr-debug.jpeg "Debug Mode")
 
+* **ShadowMap**
+
+<video width="100%" height="100%" src="/images/shadowmap.mov" controls="controls"></video>
+
+* **面光源(Working)** 
+
 # Todo
 
 写这个小引擎主要是熟悉工程的构建流程以及引擎结构相关的知识，完成一些简单的渲染工作（比如一些图形学算法的实现）
