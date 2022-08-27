@@ -77,13 +77,13 @@ date: 2022-08-26 07:06:06
 
 
 
-![内循环主体是 light 的方式叫做 single-pass lighting，与之对应的是 multi-pass lighting](untitled-2.png)
+![内循环主体是 light 的方式叫做 single-pass lighting，与之对应的是 multi-pass lighting](images/untitled-2.png)
 
 内循环主体是 light 的方式叫做 single-pass lighting，与之对应的是 multi-pass lighting
 
 透明物体：
 
-![Untitled](untitled-3.png)
+![Untitled](images/untitled-3.png)
 
 * 优点：光源少的时候优势明显，比较好处理透明物体，可以对不同的mesh应用不同的材质。
 * 缺点及优化：整个场景的光照计算复杂度为 Mesh x Lights。需要针对性优化，比如 Multi-Pass Lighting 中可以设置每个光源影响的物体列表。通过剔除来降低 Overdraw，比如使用大物件的HZB，以及对动态物体使用 depth-only 提前绘制一遍的 Early-Z 剔除算法。
@@ -95,11 +95,11 @@ Deferred Rendering 可以概括为两个 Pass：
 1. Geometry Pass，完成物体的几何数据处理，将光照计算所需要的数据写入到 GBuffer
 2. Lighting Pass，通过一个后处理对每盏光源所覆盖的像素进行 shading，写入 FrameBuffer 
 
-![Untitled](untitled-4.png)
+![Untitled](images/untitled-4.png)
 
 延迟渲染中解耦了光源和mesh的作用
 
-![Untitled](untitled-5.png)
+![Untitled](images/untitled-5.png)
 
 * 优点：解决了 Forward Rendering 在多光源效率低下的问题。极大降低了 Forward Rendering 中的 Overdraw
 * 缺点：
