@@ -31,7 +31,7 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 * **ShadowMap**
 
-<video width="100%" height="100%" src="/images/shadowmap.mov" controls="controls"></video>
+<video width="70%" height="70%" src="/images/shadowmap.mov" controls="controls"></video>
 
 * **面光源(Working)** 
 
