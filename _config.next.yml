@@ -516,6 +516,7 @@ math:
     enable: true
     # Available values: none | ams | all
     tags: none
+    cdn: //cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
   katex:
     enable: false
