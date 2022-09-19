@@ -6,7 +6,7 @@ tags:
   - Engine
 categories:
   - Engine
-excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎
+excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg" width="100%" height="100%">
 comments: false
 ---
 Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
