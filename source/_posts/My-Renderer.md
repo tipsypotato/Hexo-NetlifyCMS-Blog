@@ -19,19 +19,19 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 * **glTF 模型导入，PBR 材质**
 
-![PBR-glTF model](images/gengine-gltf-pbr.jpeg "PBR-glTF model")
+<img src="/images/myRenderer/gengine-gltf-pbr.jpeg" width="100%" height="100%">
 
 * **IBL**
 
-![IBL](images/gengine-ibl-2.jpeg "IBL")
+<img src="/images/myRenderer/gengine-ibl-2.jpeg" width="100%" height="100%">
 
 * **Debug Mode**
 
-![Debug Mode](images/gengine-gltf-pbr-debug.jpeg "Debug Mode")
+<img src="/images/myRenderer/gengine-gltf-pbr-debug.jpeg" width="100%" height="100%">
 
 * **ShadowMap**
 
-<video width="70%" height="70%" src="/images/shadowmap.mov" controls="controls"></video>
+<video width="70%" height="70%" src="/images/myRenderer/shadowmap.mov" controls="controls"></video>
 
 * **面光源(Working)** 
 
