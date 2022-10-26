@@ -6,7 +6,8 @@ tags:
   - Engine
 categories:
   - Engine
-excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg" width="100%" height="100%">
+excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg"
+  width="100%" height="100%">
 comments: false
 ---
 Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
@@ -32,6 +33,10 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 * **ShadowMap**
 
 <video width="70%" height="70%" src="/images/myRenderer/shadowmap.mov" controls="controls"></video>
+
+* **骨骼动画**
+
+<video width="100%" height="100%" src="/images/myRenderer/mascot-animation.mp4" controls="controls"></video>
 
 * **面光源(Working)** 
 
