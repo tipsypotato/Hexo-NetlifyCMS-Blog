@@ -38,6 +38,10 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 <video width="100%" height="100%" src="/images/myRenderer/mascot-animation.mp4" controls="controls"></video>
 
+* **骨骼动画(with blending)**
+
+<video width="100%" height="100%" src="/images/myRenderer/blend-animation.mp4" controls="controls"></video>
+
 * **面光源(Working)** 
 
 # Todo
