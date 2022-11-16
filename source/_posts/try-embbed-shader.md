@@ -1,4 +1,5 @@
 ---
+photos: []
 excerpt: 尝试将shader嵌入blog
 summary: null
 toc: true
@@ -12,7 +13,7 @@ mathjax: false
 password: null
 categories: []
 ---
-
+尝试了两个方法：
 1. use [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader comes from [https://www.shadertoy.com/view/4sfGzS](https://www.shadertoy.com/view/4sfGzS)
 
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
