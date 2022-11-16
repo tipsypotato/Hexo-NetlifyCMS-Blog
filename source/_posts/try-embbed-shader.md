@@ -1,15 +1,16 @@
 ---
-title: 尝试嵌入shader
+excerpt: 尝试将shader嵌入blog
+summary: null
+toc: true
+abbrlink: 140ab620
+date: 2022-11-16T09:08:49.523Z
 top: false
 cover: false
-toc: true
+title: 尝试嵌入shader
+tags: []
 mathjax: false
-abbrlink: 140ab620
-date: 2022-11-16 15:09:11
-password:
-summary:
-tags:
-categories:
+password: null
+categories: []
 ---
 
 using [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader comes from [https://www.shadertoy.com/view/4sfGzS](https://www.shadertoy.com/view/4sfGzS)
