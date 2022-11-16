@@ -16,7 +16,7 @@ categories: []
 using [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader comes from [https://www.shadertoy.com/view/4sfGzS](https://www.shadertoy.com/view/4sfGzS)
 
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
-<canvas class="glslCanvas" data-fragment-url="/glsl/shaders/shader.frag" width="500" height="500"></canvas>
+<canvas class="glslCanvas" data-fragment-url="/glsl/shaders/shader.frag" width="300" height="300"></canvas>
 
 <link type="text/css" rel="stylesheet" href="/js/glsl/glslEditor.css">
 <script type="application/javascript" src="/js/glsl/glslEditor.js"></script>
