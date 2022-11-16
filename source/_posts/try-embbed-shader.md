@@ -13,7 +13,7 @@ password: null
 categories: []
 ---
 
-using [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader comes from [https://www.shadertoy.com/view/4sfGzS](https://www.shadertoy.com/view/4sfGzS)
+1. use [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader comes from [https://www.shadertoy.com/view/4sfGzS](https://www.shadertoy.com/view/4sfGzS)
 
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 <canvas class="glslCanvas" data-fragment-url="/glsl/shaders/shader.frag" width="300" height="300"></canvas>
@@ -21,7 +21,7 @@ using [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader c
 <link type="text/css" rel="stylesheet" href="/js/glsl/glslEditor.css">
 <script type="application/javascript" src="/js/glsl/glslEditor.js"></script>
 
-using [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) to edit shader realtime, but it seems glslEditor is no longer maintained...
+2. use [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) to edit shader realtime.
 
 <body>
     <div id="glsl_editor">
