@@ -17,3 +17,42 @@ using [glslCanvas](https://github.com/patriciogonzalezvivo/glslCanvas), shader c
 
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 <canvas class="glslCanvas" data-fragment-url="/glsl/shaders/shader.frag" width="500" height="500"></canvas>
+
+<link type="text/css" rel="stylesheet" href="/js/glsl/glslEditor.css">
+<script type="application/javascript" src="/js/glsl/glslEditor.js"></script>
+
+using [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) to edit shader realtime, but it seems glslEditor is no longer maintained...
+
+<body>
+    <div id="glsl_editor">
+precision mediump float;
+
+uniform vec2 u_resolution;
+
+uniform float u_time;
+
+void main()
+
+{
+
+  vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+
+  vec3 col = vec3(uv.x, uv.y, 0.0);
+
+  gl_FragColor = vec4( col * abs(sin(u_time)), 1.0 );
+
+}
+</div>
+</body>
+<script type="text/javascript">
+    const glslEditor = new GlslEditor('#glsl_editor', { 
+        canvas_size: 200,
+        canvas_draggable: true,
+        theme: 'monokai',
+        multipleBuffers: true,
+        canvas_follow: true,
+        watchHash: false,
+        fileDrops: true,
+        menu: false
+    });
+</script>
