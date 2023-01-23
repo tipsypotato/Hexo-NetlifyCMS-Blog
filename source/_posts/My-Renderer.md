@@ -15,7 +15,7 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 # Overview
 
-一个很简单的 OpenGL 渲染引擎，支持 glTF 和 obj 的模型导入、PBR 材质、IBL、简单的 UI 面板
+一个很简单的 OpenGL 渲染引擎，支持 glTF 和 obj 的模型导入、PBR 材质、IBL、简单的 UI 面板等特性
 
 # Feature
 
@@ -43,7 +43,9 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 <video width="100%" height="100%" src="/images/myRenderer/blend-animation.mp4" controls="controls"></video>
 
-* **面光源(Working)** 
+* **面光源** 
+
+<img src="/images/myRenderer/gengine-ltc-light.png" width="100%" height="100%">
 
 # Todo
 
