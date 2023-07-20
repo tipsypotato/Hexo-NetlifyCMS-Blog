@@ -54,7 +54,7 @@ favicon:
   medium: /uploads/favicon-32x32-tangyuan.png
   apple_touch_icon: /uploads/apple-touch-icon-tangyuan.png
   safari_pinned_tab: /uploads/logo.svg
-  #android_manifest: /manifest.json
+  # android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
@@ -745,7 +745,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -813,9 +813,9 @@ note:
 # Tabs tag
 tabs:
   # Make the nav bar of tabs with long content stick to the top.
-  sticky: false
+  sticky: true
   transition:
-    tabs: false
+    tabs: true
     labels: true
 
 # PDF tag
@@ -844,15 +844,15 @@ mermaid:
 # For more information: https://animate.style
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     post_block: fadeIn
-    post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: fadeInLeft
+    post_header: fadeIn
+    post_body: fadeIn
+    coll_header: fadeIn
     # Only for Pisces | Gemini.
-    sidebar: fadeInUp
+    sidebar: fadeIn
 
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
