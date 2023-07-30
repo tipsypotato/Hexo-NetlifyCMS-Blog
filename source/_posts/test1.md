@@ -11,17 +11,10 @@ tags: []
 title: title1
 toc: true
 top: false
-updated: 2023-7-30T22:40:39.54+8:0
+updated: 2023-7-30T22:42:14.925+8:0
 ---
 ---
-__Advertisement :)__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
+Hiiiiiiii
 ---
 # h1 Heading 8-)
 
@@ -168,7 +161,6 @@ Like links, Images also have a footnote style syntax
 
 With a reference later in the document defining the URL location:
 
-[id]: https://octodex.github.com/images/dojocat.jpg
 ## Plugins
 
 The killer feature of `markdown-it` is very effective support of
@@ -205,12 +197,6 @@ Inline footnote^[Text of inline footnote] definition.
 
 Duplicated footnote reference[^second].
 
-[^first]: Footnote **can have markup**
-    
-    and multiple paragraphs.
-    
-[^second]: Footnote text.
-    
 ### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
 
 Term 1
@@ -246,3 +232,10 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+
+[id]: https://octodex.github.com/images/dojocat.jpg
+[^first]: Footnote **can have markup**
+    
+    and multiple paragraphs.
+    
+[^second]: Footnote text.
