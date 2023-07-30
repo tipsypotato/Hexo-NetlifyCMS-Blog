@@ -1,15 +1,14 @@
 ---
-title: My Renderer
 abbrlink: 4a17b156
-date: 2022-08-26T09:11:48.217Z
-sticky: 100
-tags:
-  - Engine
 categories:
-  - Engine
-excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg"
-  width="100%" height="100%">
+- Engine
 comments: false
+date: '2022-08-26T17:11:48.217000+08:00'
+excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg" width="100%" height="100%">
+tags:
+- Engine
+title: My Renderer
+updated: 2023-7-30T22:47:53.506+8:0
 ---
 Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
@@ -43,7 +42,7 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 <video width="100%" height="100%" src="/images/myRenderer/blend-animation.mp4" controls="controls"></video>
 
-* **面光源** 
+* **面光源**
 
 <img src="/images/myRenderer/gengine-ltc-light.png" width="100%" height="100%">
 
