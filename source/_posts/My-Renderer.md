@@ -1,5 +1,9 @@
 ---
 abbrlink: 4a17b156
+date: 2022-08-26T09:11:48.217Z
+# sticky: 100
+tags:
+  - Engine
 categories:
 - Engine
 comments: false
@@ -10,7 +14,8 @@ tags:
 title: My Renderer
 updated: 2023-7-30T22:47:53.506+8:0
 ---
-Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
+
+Github 地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 # Overview
 
@@ -18,31 +23,31 @@ Github地址：[MyRenderer](https://github.com/tipsypotato/myRenderer)
 
 # Feature
 
-* **glTF 模型导入，PBR 材质**
+- **glTF 模型导入，PBR 材质**
 
 <img src="/images/myRenderer/gengine-gltf-pbr.jpeg" width="100%" height="100%">
 
-* **IBL**
+- **IBL**
 
 <img src="/images/myRenderer/gengine-ibl-2.jpeg" width="100%" height="100%">
 
-* **Debug Mode**
+- **Debug Mode**
 
 <img src="/images/myRenderer/gengine-gltf-pbr-debug.jpeg" width="100%" height="100%">
 
-* **ShadowMap**
+- **ShadowMap**
 
 <video width="70%" height="70%" src="/images/myRenderer/shadowmap.mov" controls="controls"></video>
 
-* **骨骼动画**
+- **骨骼动画**
 
 <video width="100%" height="100%" src="/images/myRenderer/mascot-animation.mp4" controls="controls"></video>
 
-* **骨骼动画(with blending)**
+- **骨骼动画(with blending)**
 
 <video width="100%" height="100%" src="/images/myRenderer/blend-animation.mp4" controls="controls"></video>
 
-* **面光源**
+- **面光源**
 
 <img src="/images/myRenderer/gengine-ltc-light.png" width="100%" height="100%">
 
