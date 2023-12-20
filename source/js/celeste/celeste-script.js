@@ -637,7 +637,7 @@ makeBird({
 
 makeBird({
   addTo: birdRotor,
-  color: 'white',
+  color: '#D02',
   spin: -TAU/4,
 });
 
