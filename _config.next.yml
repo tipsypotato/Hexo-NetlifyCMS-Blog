@@ -847,13 +847,13 @@ mermaid:
 # For more information: https://animate.style
 motion:
   enable: true
-  async: true
+  async: false
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
-    menu_item: fadeIn
+    menu_item: fadeInDown
     post_block: fadeIn
     post_header: fadeInDown
-    post_body: fadeInUp
+    post_body: fadeInDown
     coll_header: fadeInLeft
     # Only for Pisces | Gemini.
     sidebar: fadeInUp
