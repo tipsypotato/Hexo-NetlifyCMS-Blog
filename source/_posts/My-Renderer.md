@@ -5,12 +5,9 @@ date: 2022-08-26T09:11:48.217Z
 tags:
   - Engine
 categories:
-- Engine
+  - Engine
 comments: false
-date: '2022-08-26T17:11:48.217000+08:00'
 excerpt: 一个 C++ 实现的 OpenGL 渲染小引擎 <img src="/images/myRenderer/GEngine-OBJ.jpeg" width="100%" height="100%">
-tags:
-- Engine
 title: My Renderer
 updated: 2023-7-30T22:47:53.506+8:0
 ---

@@ -135,3 +135,42 @@ live2d:
     scale: 0.7
   react:
     opacity: 0.9
+
+# hexo optimize
+filter_optimize:
+  enable: true
+  # static resource versioning
+  versioning: false
+  css:
+    # minify all css files
+    minify: true
+    excludes:
+    # use preload to load css elements dynamically
+    delivery:
+      - '@fortawesome/fontawesome-free'
+      - 'fonts.googleapis.com'
+    # make specific css content inline into the html page
+    inlines:
+      # support full path only
+      - css/main.css
+  js:
+    # minify all js files
+    minify: true
+    excludes:
+    # remove the comments in each of the js files
+    remove_comments: false
+  html:
+    # minify all html files
+    minify: true
+    excludes:
+  # set the priority of this plugin,
+  # lower means it will be executed first, default of Hexo is 10
+  priority: 12
+
+# image lazyload
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional
+  preloadRatio: 3 # optional, default is 1

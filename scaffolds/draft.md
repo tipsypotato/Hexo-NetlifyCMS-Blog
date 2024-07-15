@@ -10,3 +10,5 @@ summary:
 tags:
 categories:
 ---
+
+Drafts are not displayed by default
