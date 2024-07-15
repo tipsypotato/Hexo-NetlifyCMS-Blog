@@ -4,17 +4,17 @@
 
 # Site
 title: TipsyBlog
-subtitle: ''
-description: ''
-keywords:
+subtitle: '💻 | 🎮 | 📷'
+description: 'coding, gaming, photograping'
+keywords: 
 author: TispyPotato
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://tipsypotato.top/
-permalink: post/:abbrlink.html
+permalink: categories/:category/:name/
 abbrlink:
   alg: crc32  
   rep: hex    
